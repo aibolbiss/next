@@ -11,3 +11,5 @@
 
 # Как установить TypeScript?
 1) npm install -g typescript
+2) tsc --init      -      иницализируем tsconfig.json
+3) создаем "index.ts", пишем код на "typescript" а потом в терминале пишем "tsc"
