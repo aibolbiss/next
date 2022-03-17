@@ -36,18 +36,18 @@
    }
    
 10) function test(id: number | string){
-    if(typeof id === 'number'){
-    console.log(id.toString());
-    }
-    else if(typeof id === 'string'){
-    console.log(id.toUpperCase());
-    }
+      if(typeof id === 'number'){
+        console.log(id.toString());
+      }
+      else if(typeof id === 'string'){
+        console.log(id.toUpperCase());
+      }
     }
     
 11) function test(a: number | number[]){
-    if(Array.isArray(a)){
-    // Проверка, является ли параметр "a" массивом?
-    }
+      if(Array.isArray(a)){
+        // Проверка, является ли параметр "a" массивом?
+      }
     }
     
     
