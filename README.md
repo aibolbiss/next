@@ -86,5 +86,18 @@
      b: number      // ошибка. В "Type" имплементация не работает
    }
     
+
+# Литеральные типы
+1) type actionType = 'up' | 'down'
+
+   function performAction(action: actionType): -1 | 1 {
+     switch(action){
+       case 'down':
+         return -1
+       case 'up':
+         return 1
+     }
+   }
+     
    
    
