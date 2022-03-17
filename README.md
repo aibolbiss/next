@@ -1,4 +1,3 @@
-# next
 # Как установить NVM?
 1) https://github.com/nvm-sh/nvm#install--update-script     -      ссылка для скачивания nvm
 2) curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash     -     вставляем в терминал
@@ -9,3 +8,6 @@
 6) node -v
 7) nvm install 14
 8) nvm use 14
+
+# Как установить TypeScript?
+1) npm install -g typescript
