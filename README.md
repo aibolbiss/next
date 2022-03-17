@@ -13,3 +13,43 @@
 1) npm install -g typescript
 2) tsc --init      -      иницализируем tsconfig.json
 3) создаем "index.ts", пишем код на "typescript" а потом в терминале пишем "tsc"
+
+# Базовые типы
+1) let a: number = 5;
+2) let b: string = 'Aibol';
+3) let c: boolean = true;
+4) let d: string[] = ['Aibol', 'Zhanerke', 'Nurgul'];
+5) let e: any = 7;
+
+6) function test(a: string): number | string {
+     return '';
+   }
+   
+7) const test = (a: number): number => {
+     return a * 2;
+   }
+   
+8) d = d.map((item: string) => item.toUpperCase())     // ['AIBOL', 'ZHANERKE', 'NURGUL'];
+
+9) function countCordination(cord:{lat: number, long?: number}){
+   
+   }
+   
+10) function test(id: number | string){
+      if(typeof id === 'number'){
+        console.log(id.toString());
+      }
+      else if(typeof id === 'string'){
+        console.log(id.toUpperCase());
+      }
+    }
+    
+11) function test(a: number | number[]){
+      if(Array.isArray(a)){
+      // Проверка, является ли параметр "a" массивом?
+      }
+    }
+    
+    
+   
+   
