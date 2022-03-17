@@ -36,12 +36,12 @@
    }
    
 10) function test(id: number | string){
-      if(typeof id === 'number'){
-        console.log(id.toString());
-      }
-      else if(typeof id === 'string'){
-        console.log(id.toUpperCase());
-      }
+    if(typeof id === 'number'){
+      console.log(id.toString());
+    }
+    else if(typeof id === 'string'){
+      console.log(id.toUpperCase());
+    }
     }
     
 11) function test(a: number | number[]){
