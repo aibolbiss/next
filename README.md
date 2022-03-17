@@ -51,5 +51,40 @@
     }
     
     
+# Interface and Type
+1) interface IPoint{
+     x: number,
+     y: number
+   }
+   
+   interface IPointTwo extends IPoint{
+     z: number
+   }
+ 
+2) type Point = {
+     x: number,
+     y: number
+   }
+   
+   type PointTwo = Point & {
+     z: number
+   }
+   
+3) interface ITest{
+     a: number
+   }
+   
+   interface ITest{
+     b: number
+   }
+   
+4) type Test = {
+     a: number      // ошибка. В "Type" имплементация не работает
+   }
+   
+   type Test = {
+     b: number      // ошибка. В "Type" имплементация не работает
+   }
+    
    
    
